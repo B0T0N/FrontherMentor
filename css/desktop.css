@@ -1,0 +1,236 @@
+ #fondo{
+    background-color: hsl(257, 40%, 49%);
+}
+
+#div-fondo{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left:0;
+}
+
+#div-logo{
+    width: 12%;
+    z-index: 100;
+}
+
+#div-imagen{
+    width: 100%;
+    padding: 5% 0 0 0;
+}
+
+
+#div-boton{
+    width: 25%;
+    height: 10%;
+    margin-top: 6%;
+    color: #6e18beee;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(87, 87, 87);
+    border: none;
+    transition: 1s;
+}
+
+#div-boton:hover{
+    background:  hsl(300, 69%, 71%);
+    color: #ffffff;
+    transition: 0.5s;
+}
+#titulo{
+    font-size: 40px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contenido{
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    color: #ffffff;
+}
+#padre{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3% 0 0 6%;
+}
+
+#hijo{
+    flex: 50%;
+    max-width: 50%;
+    padding: 0;
+    margin-bottom: 2%;
+}
+#hijo2{
+    flex: 50%;
+    max-width: 50%;
+    padding: 8% 12% 0 3%;
+    margin-bottom: 2%;
+}
+#hijo3{
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+}
+#hijo4{
+    flex: 100%;
+    max-width: 100%;
+    padding: 0%;
+}
+#hijo5{
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 3%;
+}
+#div-face{
+    width: 2%;
+    z-index: 200;
+    bottom: 5%;
+    right: 15%;
+    margin-left: 85%;
+    filter: invert(1);
+}
+#div-face:hover{
+    filter: contrast(0%) sepia(3) hue-rotate(600deg) saturate(300%);
+}
+
+#div-insta{
+    width: 2%;
+    z-index: 200;
+    bottom: 5%;
+    right: 10%;
+    margin-left: 1%;
+    filter: invert(1);
+}
+
+#div-insta:hover{
+    filter: contrast(0%) sepia(3) hue-rotate(600deg) saturate(300%);
+}
+
+#div-twi{
+    width: 2%;
+    z-index: 200;
+    bottom: 5%;
+    right: 5%;
+    margin-left: 1%;
+    filter: invert(1);
+}
+
+#div-twi:hover{
+    filter: contrast(0%) sepia(3) hue-rotate(600deg) saturate(300%);
+}
+section{
+    background-color: #ffffff;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.caja{
+    flex: 45%;
+    max-width: 45%;
+    margin: 2% 2.5%;
+    padding: 2%;
+    box-shadow: 0px 0px 31px 10px rgb(104, 100, 104);
+    border-radius: 18px 18px 18px 18px;
+}
+footer{
+    background-color: #000000;
+    height: 200px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.face{
+    width: 2%;
+    filter: invert(1);
+    margin: 10px;
+}
+
+.ins{
+    width: 2%;
+    filter: invert(1);
+    margin: 10px;
+}
+
+.twi{
+    width: 2%;
+    filter: invert(1);
+    margin: 10px;
+}
+@media screen and (max-width:600px){
+    #padre{
+        padding: 4%;
+    }
+    #hijo{
+        flex: 100%;
+        max-width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    #div-logo{
+        width: 30%;
+        z-index: 100;
+    }
+    #div-imagen{
+        width: 70%;
+        margin: auto;
+    }
+    #hijo2{
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 2%;
+        text-align: center;
+        margin-bottom: 12%;
+    }
+    #titulo{
+        font-size: 35px;
+    }
+    #contenido{
+        font-size: 20px;
+    }
+    #hijo4{
+        margin-bottom: 2%;
+    }
+    #hijo5{
+        margin-bottom: 10%;
+    }
+    #div-boton{
+        width: 40%;
+        height: 18%;
+    }
+    #div-face{
+        width: 7%;
+        margin-left: 33%;
+    }
+    #div-insta{
+        width: 7%;
+        margin-left: 1%;
+    }
+    #div-twi{
+        width: 7%;
+        margin-left: 1%;
+    }
+    .caja{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .face{
+        width: 7%;
+    }
+    
+    .ins{
+        width: 7%;
+    }
+    
+    .twi{
+        width: 7%;
+    }
+}
